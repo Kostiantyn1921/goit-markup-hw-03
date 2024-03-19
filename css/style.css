@@ -251,6 +251,7 @@ button:focus {
     margin-left: auto;
     margin-right: auto;
     gap: 24px;
+    width: Calc((100% - 72px) / 4);
 }
 
 .option-title {
@@ -284,6 +285,7 @@ button:focus {
     justify-content: center;
     padding-bottom: 120px;
     gap: 24px;
+    width: Calc((100% - 72px) / 4);
 }
 
 .team-row-block { 
@@ -379,6 +381,7 @@ h3 {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    width: Calc((100% - 72px) / 4);
 }
 
 .portfolio-main-title{
