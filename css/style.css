@@ -95,11 +95,11 @@ span {
     line-height: 1.5;
     letter-spacing: 0.02em; 
     color: #434455;
-    padding: 24px 0;
 }
 
 .nav-link {
     color: #2e2f42;
+    padding: 24px 0;
 }
 
 .nav-link:focus {
@@ -193,19 +193,6 @@ h1 {
     width: 496px;
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-
 .main-section-title {
     display: block;
     margin-left: auto;
@@ -245,8 +232,15 @@ button:focus {
     padding: 120px 0;
 }
 
-.title-advantages {
-    visibility: hidden;
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
 }
 
 .option {
@@ -419,20 +413,20 @@ h3 {
 .portfolio-title {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-bottom: 8px;
+    margin-bottom: 72px;
 }
 
 footer {
     background-color: #2e2f42;
-    display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
     gap: 0px; 
-    padding: 100px 0
+    padding: 100px 0;
 }
 
 .logo-footer{
+    display: inline-block;
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
     text-decoration: none;
@@ -442,8 +436,8 @@ footer {
     line-height: 1.17;
     letter-spacing: 0.03em;
     padding-top: 24px;
-    padding-bottom: 24p;
-    display: inline-block;
+    padding-bottom: 24px;
+    
     margin-bottom: 16px;
 }
 
