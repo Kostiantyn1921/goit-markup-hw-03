@@ -19,6 +19,11 @@ header {
     margin: 0px;
 }
 
+li {
+    padding-left: 0; 
+    margin: 0;
+}
+
 .container {
     display: flex;
     width: 1158px;
@@ -28,10 +33,6 @@ header {
 
 .header {
     border-bottom: 1px solid #e7e9fc;
-    display: flex; 
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
 }
 
 
@@ -264,7 +265,7 @@ button:focus {
     flex-direction: column;
     gap: 8px;
     padding: 24px;
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    width: calc((100% - 72px) / 4);
 }
 
 .option-text {
@@ -284,13 +285,12 @@ button:focus {
     justify-content: center;
     padding-bottom: 120px;
     gap: 24px;
-    width: calc((100% - 72px) / 4);
 }
 
 .team-row-block { 
     background-color: #FFFFFF;  
     gap: 32px;  
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;         
     }
 
@@ -380,7 +380,6 @@ h3 {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    width: calc((100% - 72px) / 4);
 }
 
 .portfolio-main-title{
@@ -395,7 +394,7 @@ h3 {
     line-height: 1.5;
     letter-spacing: 0.02em;
     padding-bottom: 48px;
-    flex-basis: calc((100% - 3 * 24px) / 4)
+    width: Calc((100% - 72px) / 4);
 }
 
 .portfolio-container {
