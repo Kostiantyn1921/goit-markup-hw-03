@@ -265,7 +265,7 @@ button:focus {
     flex-direction: column;
     gap: 8px;
     padding: 24px;
-    width: calc((100% - 72px) / 4);
+    width: Calc((100% - 72px) / 4);
 }
 
 .option-text {
@@ -290,7 +290,7 @@ button:focus {
 .team-row-block { 
     background-color: #FFFFFF;  
     gap: 32px;  
-    width: calc((100% - 72px) / 4);
+    width: Calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;         
     }
 
