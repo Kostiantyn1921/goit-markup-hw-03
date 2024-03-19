@@ -86,7 +86,6 @@ span {
     display: flex;
     flex-direction: row;
     gap: 40px;
-    padding: 24px 0
 }
 
 .nav-element {
@@ -95,6 +94,7 @@ span {
     line-height: 1.5;
     letter-spacing: 0.02em; 
     color: #434455;
+    padding: 24px 0;
 }
 
 .nav-link {
@@ -192,6 +192,19 @@ h1 {
     width: 496px;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .main-section-title {
     display: block;
     margin-left: auto;
@@ -255,7 +268,7 @@ button:focus {
     flex-direction: column;
     gap: 8px;
     padding: 24px;
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .option-text {
@@ -279,9 +292,8 @@ button:focus {
 
 .team-row-block { 
     background-color: #FFFFFF;  
-    margin-right: 24px;
     gap: 32px;  
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
     border-radius: 0px 0px 4px 4px;         
     }
 
@@ -377,12 +389,11 @@ h3 {
     display: block;
     align-items: center;
     justify-content: center;
-    flex-basis: 30%;
     background-color: #fff;
     line-height: 1.5;
     letter-spacing: 0.02em;
     padding-bottom: 48px;
-    width: calc((100% - 48px) / 3);
+    flex-basis: calc((100% - 3 * 24px) / 4)
 }
 
 .portfolio-container {
