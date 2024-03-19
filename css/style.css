@@ -380,6 +380,10 @@ h3 {
     row-gap: 48px;
 }
 
+.portfolio-main-title{
+    margin-bottom: 72px;
+}
+
 .portfolio-item {
     display: block;
     align-items: center;
@@ -413,7 +417,7 @@ h3 {
 .portfolio-title {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-bottom: 72px;
+    margin-bottom: 8px;
 }
 
 footer {
@@ -437,7 +441,6 @@ footer {
     letter-spacing: 0.03em;
     padding-top: 24px;
     padding-bottom: 24px;
-    
     margin-bottom: 16px;
 }
 
