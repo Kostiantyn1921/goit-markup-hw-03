@@ -86,6 +86,7 @@ span {
     display: flex;
     flex-direction: row;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .nav-element {
