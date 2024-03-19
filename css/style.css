@@ -7,12 +7,27 @@ body {
     margin: 0;
 }
 
+img {
+    display: block;
+}
+
 header {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-direction: row; 
     margin: 0px;
+}
+
+.header-block {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+    display: flex; 
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 #logo {
@@ -32,8 +47,8 @@ header {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 24px 0;
+    margin-right: 76px;
 }
 
 span {
@@ -49,7 +64,7 @@ span {
     color: #2e2f42;
 }
 
-nav {
+.nav {
     color: #2e2f42;
     display: flex; 
     align-items: center; 
@@ -184,8 +199,8 @@ button:focus {
     background-color: #404BBF;
 }
 
-button {
-    display: flex;
+.main-button {
+    display: block;
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: row;
@@ -196,15 +211,16 @@ button {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
 }
 
-.main-button {
-    font-family: "Roboto", sans-serif;
-    cursor: pointer;   
-    display: inline;
-    padding: 16px 32px;
-    margin-bottom: 188px;
-    margin-top: 48px;
+.advantages {
+    padding: 120px 0;
 }
 
 .option {
@@ -233,6 +249,7 @@ button {
 
 .team {
     background-color: #f4f4fd;
+    padding: 120px 0;
 }
 
 .team-row {
@@ -288,6 +305,10 @@ button {
     padding-right: 65px;
 }
 
+h1 {
+    max-width: 496px; 
+}
+
 h2 {
     font-weight: 700;
     font-size: 36px;
@@ -295,7 +316,8 @@ h2 {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
-    color: #2e2f42;                                                                                                                                                                                                                                                                                                                                                                                                                          ;
+    color: #2e2f42;
+    margin-bottom: 72px;                                                                                                                                                                                                                                                                                                                                                                                                                          ;
 }
 
 h3 {
@@ -306,20 +328,25 @@ h3 {
     color: #2e2f42;
 }
 
+.portfolio {
+    padding: 120px 0 120px 0;
+
+}
+
 .portfolio-title {
     line-height: 1.11;
     padding-top: 120px;
     padding-bottom: 72px;
 }
 
-.container {
+.portfolio {
     display: flex;
     align-items: center;
     justify-content: center                 ;
     flex-wrap: wrap;
 }
 
-.container-item {
+.portfolio-item {
     display: block;
     align-items: center;
     justify-content: center;
@@ -330,7 +357,7 @@ h3 {
     padding-bottom: 48px;;
 }
 
-.container-block {
+.portfolio-block {
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -344,12 +371,12 @@ h3 {
     padding: 32px 0px 32px 16px;
 }
 
-.container-text {
+.portfolio-text {
     line-height: 1.5;
     letter-spacing: 0.02em;      
 }
 
-.container-title {
+.portfolio-title {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -361,9 +388,22 @@ footer {
     justify-content: flex-start;
     flex-direction: column;
     gap: 0px; 
-    padding-left: 156px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 100px 0
+}
+
+.logo-footer{
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    padding-top: 24px;
+    padding-bottom: 24p;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 #footer-logo {
@@ -387,5 +427,5 @@ footer {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    width: 264px;
+    max-width: 264px;
 }
