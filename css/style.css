@@ -428,6 +428,13 @@ footer {
     padding: 100px 0;
 }
 
+.container-footer {
+    display: inline-block;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 .footer-logo{
     display: inline-block;
     color: #4d5ae5;
