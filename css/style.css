@@ -25,7 +25,6 @@ li {
 }
 
 .container {
-    display: flex;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
@@ -283,9 +282,7 @@ button:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 120px;
     gap: 24px;
-    width: Calc((100% - 72px) / 4);
 }
 
 .team-row-block { 
@@ -371,7 +368,6 @@ h3 {
 .portfolio-title {
     line-height: 1.11;
     padding-top: 120px;
-    padding-bottom: 72px;
 }
 
 .portfolio-menu {
@@ -381,7 +377,6 @@ h3 {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    width: Calc((100% - 72px) / 4);
 }
 
 .portfolio-main-title{
@@ -395,7 +390,6 @@ h3 {
     background-color: #fff;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-bottom: 48px;
     width: Calc((100% - 72px) / 4);
 }
 
