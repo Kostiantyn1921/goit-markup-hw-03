@@ -24,11 +24,6 @@ ul {
     margin: 0; 
 }
 
-li {
-    padding-left: 0; 
-    margin: 0;
-}
-
 .container {
     display: flex;
     width: 1158px;
@@ -388,7 +383,10 @@ h3 {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    padding-left: 0; 
+    margin: 0;
 }
+
 
 .portfolio-main-title{
     margin-bottom: 72px;
