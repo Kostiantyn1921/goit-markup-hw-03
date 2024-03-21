@@ -24,6 +24,10 @@ ul {
     margin: 0; 
 }
 
+.header-container {
+    display: flex;
+}
+
 .container {
     width: 1158px;
     margin: 0 auto;
