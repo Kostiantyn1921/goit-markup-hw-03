@@ -251,6 +251,8 @@ button:focus {
     margin-left: auto;
     margin-right: auto;
     gap: 24px;
+    padding-left: 0; 
+    margin: 0;
     width: Calc((100% - 72px) / 4);
 }
 
@@ -265,6 +267,8 @@ button:focus {
     flex-direction: column;
     gap: 8px;
     padding: 24px;
+    padding-left: 0; 
+    margin: 0;
     width: Calc((100% - 72px) / 4);
 }
 
@@ -288,7 +292,9 @@ button:focus {
 
 .team-row-block { 
     background-color: #FFFFFF;  
-    gap: 32px;  
+    gap: 32px; 
+    padding-left: 0; 
+    margin: 0; 
     width: Calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;         
     }
@@ -391,6 +397,8 @@ h3 {
     background-color: #fff;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-left: 0; 
+    margin: 0;
     width: Calc((100% - 72px) / 4);
 }
 
@@ -428,15 +436,8 @@ footer {
     padding: 100px 0;
 }
 
-.container-footer {
-    display: inline-block;
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
 .footer-logo{
-    display: inline-block;
+    display: inline-block !important; 
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
     text-decoration: none;
