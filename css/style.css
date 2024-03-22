@@ -24,15 +24,14 @@ ul {
     margin: 0; 
 }
 
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
 
 .container {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-}
-
-.header {
-    border-bottom: 1px solid #e7e9fc;
 }
 
 .flex {
@@ -92,7 +91,6 @@ span {
 }
 
 .nav-element {
-    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em; 
@@ -266,7 +264,7 @@ button:focus {
 .option-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: #434455; 
     margin: 0;
 }
 
@@ -323,6 +321,7 @@ button:focus {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+    margin: 0;
 }
 
 h1 {
