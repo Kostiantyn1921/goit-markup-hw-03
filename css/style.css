@@ -77,8 +77,7 @@ span {
 .header-nav {
     color: #2e2f42;
     display: flex; 
-    align-items: center; 
-    padding-left: 156px;                
+    align-items: center;                  
 }
 
 #address {
@@ -124,11 +123,9 @@ address {
     display: flex;
     align-items: flex-end;
     justify-content: end;
-    padding-right: 156px;
 }
 
 .address-element {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -200,7 +197,7 @@ h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 188px;
+    margin-bottom: 48px;
 }
 
 button:hover {
@@ -213,6 +210,7 @@ button:focus {
 
 .main-button {
     display: block;
+    margin: 0 auto;
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: row;
@@ -250,13 +248,7 @@ button:focus {
 
 .option {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
     gap: 24px;
-    padding-left: 0; 
-    margin: 0;
 }
 
 .option-title {
@@ -264,21 +256,18 @@ button:focus {
 }
 
 .option-block {
-    display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
     gap: 8px;
-    padding: 24px;
-    padding-left: 0; 
-    margin: 0;
     width: calc((100% - 72px) / 4);
 }
 
 .option-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455
+    color: #434455;
+    margin: 0;
 }
 
 .team {
@@ -310,8 +299,6 @@ button:focus {
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
-    padding-top: 120px;
-    padding-bottom: 72px;
 }
 
 .team-container {
@@ -319,7 +306,6 @@ button:focus {
 }
 
 .team-title {
-    display: flex;
     align-items: center;
     font-weight: 500;
     font-size: 20px;
@@ -327,11 +313,7 @@ button:focus {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    padding-top: 32px;
-    padding-bottom: 4px;
-    padding-left: 65px;
-    padding-right: 65px;
-    margin-bottom: 8px
+    margin-bottom: 8px;
 }
 
 .team-text{
@@ -341,10 +323,6 @@ button:focus {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
-    padding-bottom: 32px;
-    padding-top: 4px;
-    padding-left: 65px;
-    padding-right: 65px;
 }
 
 h1 {
@@ -377,7 +355,6 @@ h3 {
 
 .portfolio-title {
     line-height: 1.11;
-    padding-top: 120px;
 }
 
 .portfolio-menu {
@@ -409,13 +386,6 @@ h3 {
 }
 
 .portfolio-container {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    width: 360px;
-    height: 120px;
-    gap: 8px;
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
@@ -452,9 +422,8 @@ footer {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    padding-top: 24px;
-    padding-bottom: 24px;
     margin-bottom: 16px;
+    padding: 0;
 }
 
 #footer-logo {
@@ -473,7 +442,6 @@ footer {
 }
 
 .footer-text {
-    display: flex;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
